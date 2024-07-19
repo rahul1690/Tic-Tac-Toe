@@ -68,6 +68,7 @@ function App() {
       const currentPlayer = deriveActivePlayer(prevTurns);
 
       const updatedTurns = [{ square: { row: rowIdx, col: colIdx }, player: currentPlayer }, ...prevTurns];
+      
       return updatedTurns;
     });
   }
