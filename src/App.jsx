@@ -19,7 +19,7 @@ const INITIAL_GAME_BOARD = [
 
 
 function deriveActivePlayer(gameTurns){
-  let currentPlayer = 'X';
+  let currentPlayer = 'X' ;
   if (gameTurns.length > 0 && gameTurns[0].player === 'X') currentPlayer = 'O';
   return currentPlayer;
 }
